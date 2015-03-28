@@ -1,0 +1,17 @@
+{
+  "name": "republicoftexas.money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "babel-node bin/generate-counties.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "csv": "^0.4.1",
+    "ripple-lib": "^0.12.1"
+  }
+}
